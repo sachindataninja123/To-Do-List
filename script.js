@@ -2,8 +2,9 @@ let inputBox = document.getElementById("input-box");
 let listContainer = document.getElementById("list-container");
 
 function addTask() {
-  if (inputBox.value === "") {
+  if (inputBox.value.trim() === "") {
     alert("you must write something!");
+    return;
   } else {
     let li = document.createElement("li");
     li.innerHTML = inputBox.value;
