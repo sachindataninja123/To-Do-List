@@ -3,6 +3,9 @@ A simple and interactive to-do list app built with **HTML**, **CSS**, and **Java
 
 It allows users to add, delete, and mark tasks as completed. The tasks are saved in **localStorage**, so they persist even after the page is refreshed.
 
+🌐 View Live
+https://mindlisttask.netlify.app/
+
 ##  Features
 
 -  Add new tasks
